@@ -2,7 +2,7 @@ import React from "react";
 
 function FeaturesBox(props) {
     return (
-        <div className='a-box'>
+        <div className='features-box'>
             <div className="a-b-img">
                 <img src={props.image} alt=""/>
             </div>

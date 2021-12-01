@@ -1,0 +1,63 @@
+
+#about{
+    margin-top:100px ;
+    width:100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+
+}
+
+.about-text{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+
+
+}
+.about-text h1{
+    font-size: 3.5rem;
+    color:#3d2514;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+}
+.about-text h3{
+    font-size: 1.5rem;
+    color: #252525;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alfa Slab One';
+}
+.about-text p{
+    letter-spacing: 1px;
+    color: #252525;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+@media(max-width:970px){
+    #about{
+        justify-content: center;
+        padding-top: 0px;
+        text-align: center;
+
+        margin-top: 0px;
+    }
+    .about-text{
+        width: 90%;
+        text-align: center;
+    }
+    .about-text h1{
+        font-size:3rem;
+    }
+    .about-text p{
+        width: 100%;
+    }
+}

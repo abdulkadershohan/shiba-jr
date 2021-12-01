@@ -1,15 +1,19 @@
 import React from 'react'
-
+import './Header.css'
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 function Header() {
     return(
         <div id='main'>
             <div className="header-heading">
                 <h3>Welcome To </h3>
                 <h1><span>SHIBA </span>JUNIOR <br/>(ShibJr)</h1>
-                <p>SHIBA JUNIOR (ShibJr) is a deflationary meme token with 5% holder rewards and 2% charity fee. SHIBA JUNIOR´s mission is to support animals in need with food and other important products.
-                    <br/>Trade Crypto, hold & earn Token while doing good things – this is Shiba Junior!<br/>
-                    Be part of this project and our great community.</p>
-                <div className="header-btns">
+                <div className="details">
+                    <p>SHIBA JUNIOR (ShibJr) is a deflationary meme token <br/>with 5% holder rewards and 2% charity fee.<br/> SHIBA JUNIOR´s mission is to support animals in need with food and other important products.
+                        <br/>Trade Crypto, hold & earn Token while doing good things – this is Shiba Junior!<br/>
+                        Be part of this project and our great community.</p>
+
+                </div>
+               <div className="header-btns">
                     <ul>
                         <li>
                             <a href="https://pancakeswap.finance/" className="header-btn">Pancakeswap</a>
@@ -23,8 +27,15 @@ function Header() {
                     </ul>
 
                 </div>
-                <h2>Contract Address</h2>
-                <h4>0xab53e67dbb50a7bcc668acf9171d3ff2e262d423</h4>
+                <div className="contract-address">
+                    <h2>Contract Address</h2>
+                    <CopyToClipboard text='0xab53e67dbb50a7bcc668acf9171d3ff2e262d423'>
+                        <span>0xab53e67dbb50a7bcc668acf9171d3ff2e262d423</span>
+                    </CopyToClipboard>
+                </div>
+
+
+
             </div>
 
 

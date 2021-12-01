@@ -1,6 +1,7 @@
 import React,{useState} from "react";
-import logo from '../images/logo1.png'
+import logo from '../../images/logo1.png'
 import {Link} from 'react-scroll'
+import './Navber.css'
 
 function Navbar() {
     const [nav,setNav]=useState(false)

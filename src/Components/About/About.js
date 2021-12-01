@@ -1,5 +1,5 @@
 import React from "react";
-import Image  from '../../images/about.png'
+import './About.css'
 function About() {
     return(
         <div id='about'>

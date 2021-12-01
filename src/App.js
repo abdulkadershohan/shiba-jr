@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import './App.css'
-import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navber/Navbar";
 import { css } from "@emotion/core";
 import {PropagateLoader} from "react-spinners";
 import Header from "./Components/Header/Header";
@@ -30,8 +30,9 @@ function App() {
             <>
               <Navbar/>
               <Header/>
-              <Features/>
-              <About/>
+             <Features/>
+            
+
 
 
             </>
