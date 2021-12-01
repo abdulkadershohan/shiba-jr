@@ -1,5 +1,8 @@
 import React from 'react'
 import './Header.css'
+import { AiOutlineCopy,AiOutlineLineChart } from 'react-icons/ai';
+import { FiDatabase} from 'react-icons/fi';
+import { FaTelegramPlane} from 'react-icons/fa';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 function Header() {
     return(
@@ -16,13 +19,13 @@ function Header() {
                <div className="header-btns">
                     <ul>
                         <li>
-                            <a href="https://pancakeswap.finance/" className="header-btn">Pancakeswap</a>
+                            <a href="https://pancakeswap.finance/" className="header-btn"><FiDatabase/>Pancakeswap</a>
                         </li>
                         <li>
-                            <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfe305364552e02f20c7e300f50ad18d0c2123316" className="header-btn">Live Chart</a>
+                            <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfe305364552e02f20c7e300f50ad18d0c2123316" className="header-btn"><AiOutlineLineChart/>Live Chart</a>
                         </li>
                         <li>
-                            <a href="https://t.me/shibajuniorofficial" className="header-btn">Telegram</a>
+                            <a href="https://t.me/shibajuniorofficial" className="header-btn"><FaTelegramPlane/>Telegram</a>
                         </li>
                     </ul>
 
@@ -30,7 +33,8 @@ function Header() {
                 <div className="contract-address">
                     <h2>Contract Address</h2>
                     <CopyToClipboard text='0xab53e67dbb50a7bcc668acf9171d3ff2e262d423'>
-                        <span>0xab53e67dbb50a7bcc668acf9171d3ff2e262d423</span>
+                        <span className='contract-address-icon'>0xab53e67dbb50a7bcc668acf9171d3ff2e262d423 <AiOutlineCopy/></span>
+
                     </CopyToClipboard>
                 </div>
 

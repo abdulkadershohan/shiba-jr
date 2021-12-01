@@ -1,17 +1,15 @@
 
 #about{
-    margin-top:100px ;
     width:100%;
-    height: 100vh;
+    height: 120vh;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 5% 0px 5%;
+    padding: 50px 5% 150px 5%;
     position: relative;
 
 }
-
 .about-text{
     width: 100%;
     color: #fff;
@@ -37,27 +35,17 @@
     font-family: 'Alfa Slab One';
 }
 .about-text p{
+    font-family: 'sans-serif';
     letter-spacing: 1px;
     color: #252525;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: capitalize;
-}
-@media(max-width:970px){
-    #about{
-        justify-content: center;
-        padding-top: 0px;
-        text-align: center;
 
-        margin-top: 0px;
+}
+@media(max-width:1190px){
+    #about{
+        height: auto;
+        padding-top: 100px;
     }
-    .about-text{
-        width: 90%;
-        text-align: center;
-    }
-    .about-text h1{
-        font-size:3rem;
-    }
-    .about-text p{
-        width: 100%;
-    }
+
 }

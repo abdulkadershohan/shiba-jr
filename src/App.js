@@ -31,7 +31,8 @@ function App() {
               <Navbar/>
               <Header/>
              <Features/>
-            
+              <About/>
+
 
 
 
