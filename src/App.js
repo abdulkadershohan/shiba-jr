@@ -6,6 +6,7 @@ import {PropagateLoader} from "react-spinners";
 import Header from "./Components/Header/Header";
 import Features from "./Components/Features/Features";
 import About from "./Components/About/About";
+import Tokenomics from "./Components/Tokenomics/Tokenomics";
 
 
 function App() {
@@ -29,11 +30,8 @@ function App() {
             :
             <>
               <Navbar/>
-              <Header/>
-             <Features/>
-              <About/>
 
-
+              <Tokenomics/>
 
 
             </>

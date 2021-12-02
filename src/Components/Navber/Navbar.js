@@ -28,9 +28,9 @@ function Navbar() {
                 <li><Link to="main" smooth={true} duration={1000}>Home</Link></li>
                 <li><Link to="features" smooth={true} duration={1000}>Features</Link></li>
                 <li><Link to="about" smooth={true} duration={1000}>About</Link></li>
-                <li><Link to="Tokenomics" smooth={true} duration={1000}>Tokenomics</Link></li>
-                <li><Link to="Roadmap" smooth={true} duration={1000}>Roadmap</Link></li>
-                <li><Link to="HowToBuy" smooth={true} duration={1000}>How To Buy</Link></li>
+                <li><Link to="tokenomics" smooth={true} duration={1000}>Tokenomics</Link></li>
+                <li><Link to="roadmap" smooth={true} duration={1000}>Roadmap</Link></li>
+                <li><Link to="howToBuy" smooth={true} duration={1000}>How To Buy</Link></li>
             </ul>
 
 

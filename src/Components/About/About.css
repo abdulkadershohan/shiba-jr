@@ -1,4 +1,3 @@
-
 #about{
     width:100%;
     height: 120vh;
@@ -6,20 +5,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 5% 150px 5%;
+    padding: 50px 5% 0px 5%;
     position: relative;
-
-
 }
+
 .about-text{
-    width: 100%;
+    width: 45%;
     color: #fff;
-    text-align: center;
-
-
+    text-align: left;
 }
 .about-text h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color:#3d2514;
     font-weight: 500;
     margin: 0px;
@@ -36,17 +32,51 @@
     font-family: 'Alfa Slab One';
 }
 .about-text p{
-    font-family: 'sans-serif';
+    font-family:'sans-serif';
     letter-spacing: 1px;
     color: #252525;
-    font-size: 1rem;
-    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.about-image{
+    width: 50%;
+}
+.about-image img{
+    width: 600px;
+}
+
+
+@media(max-width:1190px){
+    .about-image img{
+        height:800px;
+        width: 70%;
+    }
 
 }
-@media(max-width:1190px){
+@media(max-width:970px){
+    .about-image{
+        display:none;
+    }
+    #about{
+        justify-content: center;
+        padding-top: 0px;
+        text-align: center;
+
+        margin-top: 0px;
+    }
+    .about-text{
+        width: 90%;
+        text-align: center;
+    }
+    .about-text h1{
+        font-size:3rem;
+    }
+    .about-text p{
+        width: 100%;
+    }
     #about{
         height: auto;
         padding-top: 100px;
-    }
 
+    }
 }
