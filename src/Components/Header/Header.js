@@ -19,7 +19,7 @@ function Header() {
                <div className="header-btns">
                     <ul>
                         <li>
-                            <a href="https://pancakeswap.finance/" className="header-btn"><FiDatabase/>Pancakeswap</a>
+                            <a href="https://pancakeswap.finance/swap?outputCurrency=0xab53e67dbb50a7bcc668acf9171d3ff2e262d423/" className="header-btn" target='_blank'><FiDatabase/>Pancakeswap</a>
                         </li>
                         <li>
                             <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfe305364552e02f20c7e300f50ad18d0c2123316" className="header-btn"><AiOutlineLineChart/>Live Chart</a>

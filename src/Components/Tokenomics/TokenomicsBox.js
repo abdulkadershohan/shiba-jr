@@ -8,6 +8,7 @@ function TokenomicsBox(props) {
             <div className="tokenomics-box-text">
                 <h2>{props.title}</h2>
                 <p>{props.subtitle}</p>
+
             </div>
 
         </div>

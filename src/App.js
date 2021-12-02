@@ -7,6 +7,7 @@ import Header from "./Components/Header/Header";
 import Features from "./Components/Features/Features";
 import About from "./Components/About/About";
 import Tokenomics from "./Components/Tokenomics/Tokenomics";
+import HowToBuy from "./Components/HowToBuy/HowToBuy";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },0);
+    },5000);
   }, [])
 
   return (
@@ -30,8 +31,12 @@ function App() {
             :
             <>
               <Navbar/>
-
+              <Header/>
+              <Features/>
+              <About/>
               <Tokenomics/>
+              <HowToBuy/>
+
 
 
             </>
