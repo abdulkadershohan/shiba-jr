@@ -8,6 +8,8 @@ import Features from "./Components/Features/Features";
 import About from "./Components/About/About";
 import Tokenomics from "./Components/Tokenomics/Tokenomics";
 import HowToBuy from "./Components/HowToBuy/HowToBuy";
+import Roadmap from "./Components/Roadmap/Roadmap";
+import Footer from "./Components/Footer/Footer";
 
 
 function App() {
@@ -35,7 +37,10 @@ function App() {
               <Features/>
               <About/>
               <Tokenomics/>
+              <Roadmap/>
               <HowToBuy/>
+              <Footer/>
+
 
 
 

@@ -1,0 +1,38 @@
+#footer{
+    height: 30vh;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
+
+}
+.footer-top-section{
+    padding: 10px;
+}
+.footer-top-section h4{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #3d2514;
+    font-size: 1.2rem;
+}
+.footer-top-section h5{
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+.footer-top-section p{
+    color: #3d2514;
+    font-family: sans-serif;
+    text-transform: lowercase;
+}
+.footer-link{
+    padding: 5px;
+
+}
+
+.footer-bottom-section ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom-section ul li{
+    padding-right: 10px;
+}
