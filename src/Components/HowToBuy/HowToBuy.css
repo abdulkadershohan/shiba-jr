@@ -1,7 +1,7 @@
+
 #howToBuy{
-    padding-top: 150px;
     width:100%;
-    height:auto;
+    height:120vh;
     box-sizing: border-box;
     font-family:'Lato';
     display: flex;
@@ -10,41 +10,6 @@
     justify-content: center;
     background-color: #ffffff;
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
-}
-.how-to-buy-container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.how-to-buy-box{
-    background-color: #ffffff;
-    width:100%;
-    height: 500px;
-    margin: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: 0.4s ease-in-out;
-    position: relative;
-}
-.how-to-buy-box:hover{
-    box-shadow: 2px 2px 12px rgba(184, 98, 0, 0.445);
-}
-.how-to-buy-box h2{
-    font-size: 3rem;
-    font-weight: 500;
-    font-family: 'Alfa Slab One';
-    text-transform: uppercase;
-    text-align: center;
-    color:#3d2514;
-    padding: 20px;
-
-
-}
-.how-to-buy-box p{
-    letter-spacing: 1px;
-    color: #3d2514;
-    font-size: 1.2rem;
-    font-family:'sans-serif';
 
 }
 #howToBuy h1{
@@ -56,39 +21,66 @@
     font-family: 'Alfa Slab One';
     text-transform: uppercase;
 }
-.contract-address h2{
-    margin-top: 10px;
-    font-size: 1.6rem;
-    color:#3d2514;
+.how-to-buy-box-text p{
+    font-family:'sans-serif';
+    color: #3d2514;
+    font-size: 1.2rem;
 }
-.AiOutlineCopy :hover{
-    cursor: pointer;
+.token-address p{
+    font-size: 12px;
 }
-.AiOutlineLineChart{
-    margin: 5px;
-    padding: 5px;
+.how-to-buy-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-.contract-address-icon{
-    font-family: 'Alfa Slab One';
-    color:#bf2222;
-    text-decoration: underline;
+.how-to-buy-box{
+    background-color: #ffffff;
+    width:300px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    position: relative;
+    box-shadow: 2px 2px 12px rgba(184, 98, 0, 0.445);
 }
-@media(max-width:1190px) {
-    .how-to-buy-container {
+
+
+.how-to-buy-box-text{
+    margin-top: 20px;
+    width: 100%;
+    height: 40%;
+    background-color:#ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.how-to-buy-box-text h2{
+    color: #3d2514;
+    padding-top: 100px;
+}
+
+@media(max-width:1190px){
+    .how-to-buy-container{
         flex-wrap: wrap;
     }
     .how-to-buy-box{
         flex-grow: 1;
     }
-}
-@media(max-width:600px) {
-    .how-to-buy-box p{
-        font-size: 1rem;
-    }
     #howToBuy{
+        height: auto;
         padding-top: 100px;
+
+    }
+    .how-to-buy-box-text p{
+        font-size: 15px;
     }
     .howToBuy-bottom span{
         font-size: 14px;
     }
 }
+
+

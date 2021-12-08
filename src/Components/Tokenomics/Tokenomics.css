@@ -44,9 +44,12 @@
     overflow: hidden;
     transition: 0.4s ease-in-out;
     position: relative;
+
+    box-shadow: 2px 2px 12px rgba(184, 98, 0, 0.445);
 }
 .tokenomics-box:hover{
-    box-shadow: 2px 2px 12px rgba(184, 98, 0, 0.445);
+    box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
+    background-color: green;
 }
 
 .tokenomics-box-img{

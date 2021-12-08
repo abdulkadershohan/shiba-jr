@@ -25,6 +25,7 @@
     overflow: hidden;
     transition: 0.4s ease-in-out;
     position: relative;
+
 }
 .roadmap-box:hover{
     box-shadow: 2px 2px 12px rgba(184, 98, 0, 0.445);
