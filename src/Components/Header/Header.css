@@ -119,7 +119,12 @@
     .header-heading{
         padding-top: 10rem;
     }
-    .header-btn {
-        width: 140px;
+    .header-btns ul{
+        display: flex;
+        flex-direction: column;
     }
+    .contract-address span{
+        font-size: 14px;
+    }
+
 }

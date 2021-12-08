@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
 }
 .how-to-buy-container{
     display: flex;
@@ -36,6 +37,7 @@
     text-align: center;
     color:#3d2514;
     padding: 20px;
+
 
 }
 .how-to-buy-box p{
@@ -85,5 +87,8 @@
     }
     #howToBuy{
         padding-top: 100px;
+    }
+    .howToBuy-bottom span{
+        font-size: 14px;
     }
 }
